@@ -136,3 +136,4 @@ class Recibo(models.Model):
 
     def __str__(self):
         return f"Recibo #{self.numero_recibo} - {self.matricula.nombre} - C${self.monto_pagado}"
+     
